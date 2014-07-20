@@ -62,7 +62,7 @@
  +
  +
  +# Show a list of the bookmarks
- +bookmarksshow (){
+ +bookmarksshowbrew (){
  +  cat ~/.bookmarks | awk '{ printf "%-40s%-40s%s\n",$1,$2,$3}' FS=\|
  +}
  +
