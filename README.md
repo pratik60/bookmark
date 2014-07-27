@@ -1,4 +1,4 @@
-bookmark
+Bookmark
 ========
 
 This is a very handy functionality that lets us bookmark folders, and easily navigate to them in the future, rather than manually creating aliases for navigating into each folder.
