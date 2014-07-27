@@ -64,7 +64,7 @@ unbookmark (){
 
 
 # Show a list of the bookmarks
-brewbookmarksshow (){
+bookmarksshow (){
   cat ~/.bookmarks | awk '{ printf "%-40s%-40s%s\n",$1,$2,$3}' FS=\|
 }
 
