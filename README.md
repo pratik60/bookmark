@@ -17,7 +17,6 @@ go app1
 
 rather than having to cd into the folder manually. 
 
-
 ### List of Commands
 
 1) Bookmark a folder. If no arguments are passed, it will create a bookmark with that current folder's name.
@@ -52,4 +51,12 @@ go app2
 ```
 
 P.S. - Been using this functionality for a long time, can't remember its original author. Code's been heavily modified with a lot of functionalities added by me now. Credit to him/her as well :-)
+
+### Installation without brew
+
+```
+Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember
+    to source the file to update your current session):
+      [[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
+```
 
