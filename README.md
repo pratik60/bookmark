@@ -65,4 +65,9 @@ P.S. - Been using this functionality for a long time, can't remember its origina
   ``` shell
   [[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
   ```
+### Installation with brew
 
+``` shell
+brew tap pratik60/bookmark
+brew install bookmark
+```
