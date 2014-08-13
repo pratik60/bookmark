@@ -54,9 +54,15 @@ P.S. - Been using this functionality for a long time, can't remember its origina
 
 ### Installation without brew
 
+1. Clone (or manually download) the project:
+
+``` shell
+git clone https://github.com/pratik60/bookmark.git ~/bookmark`
 ```
-Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember
-    to source the file to update your current session):
-      [[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
+
+2. Add the following line to your `~/.bash_profile` or `~/.zshrc` file:
+
+``` shell
+[[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
 ```
 
