@@ -56,13 +56,13 @@ P.S. - Been using this functionality for a long time, can't remember its origina
 
 1. Clone (or manually download) the project:
 
-``` shell
-git clone https://github.com/pratik60/bookmark.git ~/bookmark`
-```
+  ``` shell
+  git clone https://github.com/pratik60/bookmark.git ~/bookmark`
+  ```
 
 2. Add the following line to your `~/.bash_profile` or `~/.zshrc` file:
 
-``` shell
-[[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
-```
+  ``` shell
+  [[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
+  ```
 
