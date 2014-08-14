@@ -52,7 +52,14 @@ go app2
 
 P.S. - Been using this functionality for a long time, can't remember its original author. Code's been heavily modified with a lot of functionalities added by me now. Credit to him/her as well :-)
 
-### Installation without brew
+### Installation with brew
+
+``` shell
+brew tap pratik60/bookmark
+brew install bookmark
+```
+
+### Manual Installation
 
 1. Clone (or manually download) the project:
 
@@ -65,10 +72,4 @@ P.S. - Been using this functionality for a long time, can't remember its origina
   ``` shell
   [[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
   ```
-  
-### Installation with brew
 
-``` shell
-brew tap pratik60/bookmark
-brew install bookmark
-```
