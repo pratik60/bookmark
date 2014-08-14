@@ -7,7 +7,7 @@ This is a very handy functionality that lets us bookmark folders, and easily nav
 
 ```bash
 cd /webapps/app1
-bookmark firstapp
+bookmark app1
 ```
 
 then next time  you could directly do
