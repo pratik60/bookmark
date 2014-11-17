@@ -1,5 +1,6 @@
 Bookmark
 ========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pratik60/bookmark?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This is a very handy functionality that lets us bookmark folders, and easily navigate to them in the future, rather than manually creating aliases for navigating into each folder.
 
