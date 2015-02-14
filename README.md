@@ -74,3 +74,8 @@ go app2
 
 P.S. - Been using this functionality for a long time, can't remember its original author. Code's been heavily modified with a lot of functionalities added by me now. Credit to him/her as well :-)
 
+### Drop me a note
+
+To submit a feature request, you can use the github issue queue. 
+To drop me a note or feedback, you can add it as a comment on -: http://preciselyme.com/tech/bookmark-folders
+
