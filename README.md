@@ -18,6 +18,27 @@ go app1
 
 rather than having to cd into the folder manually. 
 
+### Installation with brew
+
+``` shell
+brew tap pratik60/bookmark
+brew install bookmark
+```
+
+### Manual Installation
+
+1. Clone (or manually download) the project:
+
+  ``` shell
+  git clone https://github.com/pratik60/bookmark.git ~/bookmark`
+  ```
+
+2. Add the following line to your `~/.bash_profile` or `~/.zshrc` file:
+
+  ``` shell
+  [[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
+  ```
+
 ### List of Commands
 
 1) Bookmark a folder. If no arguments are passed, it will create a bookmark with that current folder's name.
@@ -52,25 +73,4 @@ go app2
 ```
 
 P.S. - Been using this functionality for a long time, can't remember its original author. Code's been heavily modified with a lot of functionalities added by me now. Credit to him/her as well :-)
-
-### Installation with brew
-
-``` shell
-brew tap pratik60/bookmark
-brew install bookmark
-```
-
-### Manual Installation
-
-1. Clone (or manually download) the project:
-
-  ``` shell
-  git clone https://github.com/pratik60/bookmark.git ~/bookmark`
-  ```
-
-2. Add the following line to your `~/.bash_profile` or `~/.zshrc` file:
-
-  ``` shell
-  [[ -s ~/bookmark/bookmarker.sh ]] && . ~/bookmark/bookmarker.sh
-  ```
 
